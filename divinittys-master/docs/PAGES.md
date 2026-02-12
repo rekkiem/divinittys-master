@@ -1,4 +1,4 @@
-# Listado de Paginas - BasicTechShop
+# Listado de Paginas - Divinittys
 
 ## Paginas Publicas (Shop)
 

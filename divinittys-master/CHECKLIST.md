@@ -20,7 +20,7 @@ cp .env.example .env
 
 **Editar `.env` con mínimo esto:**
 ```env
-DATABASE_URL="postgresql://basictech:basictech123@localhost:5490/basictech_shop"
+DATABASE_URL="postgresql://divinittys:divinittys123@localhost:5490/divinittys_shop"
 NEXTAUTH_SECRET="dev-secret-aqui-cambiar"
 NEXTAUTH_URL="http://localhost:3000"
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
@@ -36,7 +36,7 @@ docker-compose up -d
 
 **OPCIÓN B - PostgreSQL Local:**
 - Tener PostgreSQL corriendo en `localhost:5432`
-- Crear BD: `CREATE DATABASE basictech_shop;`
+- Crear BD: `CREATE DATABASE divinittys_shop;`
 - Ajustar `DATABASE_URL` en `.env`
 
 ### Paso 4: Migraciones
@@ -76,7 +76,7 @@ npm run dev
 - [ ] Login → http://localhost:3000/login (usar credenciales creadas)
 
 ### Login con Usuarios de Prueba
-- [ ] **Admin:** `admin@basictech.com` / `admin123`
+- [ ] **Admin:** `admin@divinittys.com` / `admin123`
   → http://localhost:3000/admin
 - [ ] **Customer:** `juan@email.com` / `admin123`
   → http://localhost:3000/profile
@@ -157,7 +157,7 @@ docker ps               # Ver contenedores
 - [ ] `npm run dev` ejecutándose sin errores
 - [ ] http://localhost:3000 abre correctamente
 - [ ] Puedes ver productos en la tienda
-- [ ] Puedes loguearte con `admin@basictech.com / admin123`
+- [ ] Puedes loguearte con `admin@divinittys.com / admin123`
 
 **Si todo está ✅, el proyecto está listo para usar.**
 

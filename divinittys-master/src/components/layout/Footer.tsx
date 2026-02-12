@@ -42,7 +42,7 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <span className="text-sm font-bold text-primary-foreground">BT</span>
               </div>
-              <span className="text-xl font-bold">BasicTechShop</span>
+              <span className="text-xl font-bold">Divinittys</span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
               Tu tienda de tecnologia de confianza. Los mejores productos de computacion a los mejores precios.
@@ -128,7 +128,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 shrink-0" />
-                <span>info@basictechshop.com</span>
+                <span>info@Divinittys.com</span>
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} BasicTechShop. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Divinittys. Todos los derechos reservados.
           </p>
           <div className="flex gap-4">
             {footerLinks.legal.map((link) => (

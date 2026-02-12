@@ -1,7 +1,7 @@
-# Plan: BasicTechShop - Ecommerce de Productos de Computación
+# Plan: Divinittys - Ecommerce de Productos de Computación
 
 ## Configuración del Proyecto
-- **Nombre**: BasicTechShop
+- **Nombre**: Divinittys
 
 ## Stack Tecnológico
 - **Frontend**: Next.js 16 (App Router)

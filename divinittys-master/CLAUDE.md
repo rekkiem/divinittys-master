@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-BasicTechShop is an e-commerce application for beauty products and care hair built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, and shadcn/ui. Currently in UI-only phase with mock data - backend integration (PostgreSQL/Prisma) planned for future.
+Divinittys is an e-commerce application for beauty products and care hair built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, and shadcn/ui. Currently in UI-only phase with mock data - backend integration (PostgreSQL/Prisma) planned for future.
 
 ### Component Organization
 ```

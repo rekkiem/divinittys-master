@@ -38,7 +38,7 @@ export function Header() {
               <span className="text-sm font-bold text-primary-foreground">BT</span>
             </div>
             <span className="hidden text-xl font-bold sm:inline-block">
-              BasicTechShop
+              Divinittys
             </span>
           </Link>
 

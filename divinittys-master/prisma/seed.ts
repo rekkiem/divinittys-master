@@ -310,7 +310,7 @@ async function main() {
   // Create Admin User
   const adminUser = await prisma.user.create({
     data: {
-      email: "admin@basictech.com",
+      email: "admin@divinittys.com",
       password: "$2b$10$K7L1OJ45/4Y2nIvhRVpCe.FSmhDdWoXehVzJptJ/op0lSsvqNu9lK", // password: admin123
       name: "Admin User",
       phone: "+51 999 888 777",

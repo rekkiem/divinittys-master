@@ -1,8 +1,8 @@
-# PRD: BasicTechShop
+# PRD: Divinittys
 
 ## 1. Resumen Ejecutivo
 
-**BasicTechShop** es una plataforma e-commerce especializada en productos de computación (hardware, periféricos y componentes). El sistema permite a los usuarios navegar, filtrar y comprar productos, mientras que los administradores gestionan el inventario, usuarios y pedidos.
+**Divinittys** es una plataforma e-commerce especializada en productos de computación (hardware, periféricos y componentes). El sistema permite a los usuarios navegar, filtrar y comprar productos, mientras que los administradores gestionan el inventario, usuarios y pedidos.
 
 | Aspecto | Detalle |
 |---------|---------|

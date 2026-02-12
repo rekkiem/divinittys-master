@@ -4,7 +4,7 @@
 ---
 
 ## 1️⃣ Document Metadata
-- **Project Name:** ecommerce-basictech
+- **Project Name:** ecommerce-divinittys
 - **Date:** 2026-01-03
 - **Prepared by:** TestSprite AI Team
 
@@ -137,7 +137,7 @@ Browser Console Logs:
 [WARNING] Image with src "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
 [WARNING] Image with src "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
 [WARNING] Image with src "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=800" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
-[WARNING] Image with src "https://res.cloudinary.com/fazttech/image/upload/v1767499950/basictech/products/hdtebrryzwqocg4ywfq5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
+[WARNING] Image with src "https://res.cloudinary.com/fazttech/image/upload/v1767499950/divinittys/products/hdtebrryzwqocg4ywfq5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
 [WARNING] Image with src "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
 [WARNING] Image with src "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=500" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
 [WARNING] Image with src "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=500" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (at http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2307:27)
