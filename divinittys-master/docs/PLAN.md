@@ -1,4 +1,4 @@
-# Plan: Divinittys - Ecommerce de Productos de Computación
+# Plan: Divinittys - Ecommerce de de belleza y cuidado del cabello
 
 ## Configuración del Proyecto
 - **Nombre**: Divinittys

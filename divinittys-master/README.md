@@ -1,6 +1,6 @@
 # Divinittys
 
-E-commerce de productos de computación construido con Next.js 16, TypeScript y Tailwind CSS.
+E-commerce de de belleza y cuidado del cabello construido con Next.js 16, TypeScript y Tailwind CSS.
 
 ## Descripción
 

@@ -2,12 +2,12 @@
 
 ## 1. Resumen Ejecutivo
 
-**Divinittys** es una plataforma e-commerce especializada en productos de computación (hardware, periféricos y componentes). El sistema permite a los usuarios navegar, filtrar y comprar productos, mientras que los administradores gestionan el inventario, usuarios y pedidos.
+**Divinittys** es una plataforma e-commerce especializada en productos de belleza y cuidado del cabello. El sistema permite a los usuarios navegar, filtrar y comprar productos, mientras que los administradores gestionan el inventario, usuarios y pedidos.
 
 | Aspecto | Detalle |
 |---------|---------|
 | **Tipo** | E-commerce B2C |
-| **Mercado** | Productos de computación |
+| **Mercado** | de belleza y cuidado del cabello |
 | **Plataforma** | Web (responsive) |
 | **Estado actual** | UI implementada con datos mock |
 
