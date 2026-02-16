@@ -13,9 +13,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  experimental: {
-    allowedDevOrigins: ["web-q5to7an1yfx2.up-de-fra1-k8s-1.apps.run-on-seenode.com"]
-  },
+  
 };
 
 export default nextConfig;
