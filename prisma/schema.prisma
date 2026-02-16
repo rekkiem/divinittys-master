@@ -1,7 +1,9 @@
 // prisma/schema.prisma
 
 generator client {
-  provider = "prisma-client"
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client" 
+  // O la ruta que te sugería el log: output = "../src/generated"
 }
 
 datasource db {
