@@ -13,7 +13,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  
+  // Añade esto para asegurar que Prisma se cargue correctamente
+  serverExternalPackages: ["@prisma/client"],
 };
 
 export default nextConfig;
