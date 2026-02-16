@@ -1,15 +1,16 @@
 import { auth } from "@/lib/auth"
 import { NextResponse } from "next/server"
 
-export const runtime = "nodejs"
+// SE ELIMINÓ: export const runtime = "nodejs" 
+// Next.js ya asume que este archivo corre en Node.js; definirlo causa el error de build.
 
-// Routes that require authentication
+// Rutas que requieren autenticación
 const protectedRoutes = ["/profile", "/checkout"]
 
-// Routes only for admin users
+// Rutas solo para administradores
 const adminRoutes = ["/admin"]
 
-// Routes only for guests (not logged in)
+// Rutas solo para invitados (no logueados)
 const guestRoutes = ["/login", "/register"]
 
 export default auth((req) => {
@@ -17,34 +18,34 @@ export default auth((req) => {
   const isLoggedIn = !!req.auth
   const isAdmin = req.auth?.user?.role === "ADMIN"
 
-  // Check if the current path matches any protected route
+  // Verificar si la ruta actual es protegida
   const isProtectedRoute = protectedRoutes.some((route) =>
     nextUrl.pathname.startsWith(route)
   )
 
-  // Check if the current path matches any admin route
+  // Verificar si la ruta actual es de admin
   const isAdminRoute = adminRoutes.some((route) =>
     nextUrl.pathname.startsWith(route)
   )
 
-  // Check if the current path matches any guest route
+  // Verificar si la ruta actual es de invitado
   const isGuestRoute = guestRoutes.some((route) =>
     nextUrl.pathname.startsWith(route)
   )
 
-  // Redirect to login if accessing protected route without auth
+  // Redirigir al login si accede a ruta protegida sin sesión
   if (isProtectedRoute && !isLoggedIn) {
     const loginUrl = new URL("/login", nextUrl)
     loginUrl.searchParams.set("callbackUrl", nextUrl.pathname)
     return NextResponse.redirect(loginUrl)
   }
 
-  // Redirect to home if accessing admin route without admin role
+  // Redirigir al home si accede a ruta admin sin rol de ADMIN
   if (isAdminRoute && !isAdmin) {
     return NextResponse.redirect(new URL("/", nextUrl))
   }
 
-  // Redirect to home if accessing guest route while logged in
+  // Redirigir al home si accede a rutas de invitados ya estando logueado
   if (isGuestRoute && isLoggedIn) {
     return NextResponse.redirect(new URL("/", nextUrl))
   }
@@ -54,7 +55,7 @@ export default auth((req) => {
 
 export const config = {
   matcher: [
-    // Match all routes except static files and API routes
+    // Coincidir con todas las rutas excepto archivos estáticos y rutas API
     "/((?!api|_next/static|_next/image|favicon.ico).*)",
   ],
 }
